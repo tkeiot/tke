@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết lập thông số</title>
+</head>
+<body>
+    <h1>Thiết lập thông số chương trình</h1>
+    <form method="POST" action="{{ url_for('update_parameters') }}">
+        <label for="param1">Thông số 1:</label><br>
+        <input type="text" id="param1" name="param1" value="{{ parameters['param1'] }}"><br><br>
+        
+        <label for="param2">Thông số 2:</label><br>
+        <input type="text" id="param2" name="param2" value="{{ parameters['param2'] }}"><br><br>
+        
+        <label for="param3">Thông số 3:</label><br>
+        <input type="text" id="param3" name="param3" value="{{ parameters['param3'] }}"><br><br>
+        
+        <input type="submit" value="Lưu">
+    </form>
+</body>
+</html>
+
+
+
