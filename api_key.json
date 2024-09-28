@@ -1,12 +1,12 @@
 [
 
   {
-	"picovoice": "5JFVBVzN9DYhC2zy7rrwEzQzxxxxxxxxxx",
+	"picovoice": "5JFVBVzN9DYzy7rrwEzQzxxxxxxxxxx",
 
-	"gemini": "AIzaSyCdfbww7W0fKLRrMSxxxxxx",
+	"gemini": "AIzaSyCdfbww7WLRrMSxxxxxx",
 	"active": "true",	
 
-	"chatgpt":"sk-0dXbUxev3lKcOLJ9WQFWVF4Ple2dlZ3n_xxxxxxxxA",
+	"chatgpt":"sk-0dXbUxev3lKcOLJ9WQFWVZ3n_xxxxxxxxA",
 	"active": "false"
 	
   }
